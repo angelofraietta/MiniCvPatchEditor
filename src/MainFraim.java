@@ -399,7 +399,7 @@ public void ReadBytesTx(){
     cmbMidiIn.setBounds(new Rectangle(5, 38, 139, 21));
     cmbMidiIn.addActionListener(new MainFraim_cmbMidiIn_actionAdapter(this));
     cmbMidiOut.setBounds(new Rectangle(124, 32, 85, 20));
-    cmbMidiOut.setBounds(new Rectangle(151, 37, 42, 21));
+    cmbMidiOut.setBounds(new Rectangle(151, 37, 142, 21));
     cmbMidiOut.addActionListener(new MainFraim_cmbMidiOut_actionAdapter(this));
     ConfigContainer.setBorder(BorderFactory.createLoweredBevelBorder());
     ConfigContainer.setPreferredSize(new Dimension(900, 900));
